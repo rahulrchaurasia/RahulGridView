@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item android:state_selected="true" android:color="@color/black" />-->
+    <!--<item android:color="#ffffff"></item>-->
+    <!--<item android:drawable="@drawable/customeborder_grey" android:state_pressed="false"/>-->
+    <item android:drawable="@drawable/customeborder_grey"  android:state_checked="false" />
+    <item android:drawable="@drawable/customeborder_black"  android:state_checked="true" />
+    <item android:drawable="@drawable/customeborder_grey"/>
+
+</selector>

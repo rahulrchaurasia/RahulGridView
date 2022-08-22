@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#26a69a</color>-->
+
+    <color name="colorPrimary">#c13d49</color>
+    <color name="colorPrimaryDark">#c13d49</color>
+    <color name="colorAccent">#c13d49</color>
+    <color name="colorAdd">#80cbc4</color>
+    <color name="colorRemove">#FF4C4C</color>
+    <color name="bg">#eeeeee</color>
+
+    <color name="primary_color">#8e8e8e</color>
+    <!--....................................-->
+
+    <color name="gray">#D6D6D6</color>
+    <color name="lightGrey">#E0E0E0</color>
+    <color name="dark_text_gray">#8e8e8e</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lime">#ff009250</color>
+    <color name="teallight">#19A79B</color>
+    <color name="black">#5a5a5a</color>
+    <color name="black_dark">#000000</color>
+    <color name="black_light">#212121</color>
+    <color name="off_white">#fbfafa</color>
+    <color name="divider_color">#f3f2f2</color>
+    <color name="welcomebg">#adadac</color>
+    <color name="bg_dashboard">#f5f5f5</color>
+
+    <!--Button State Colors-->
+    <!--Magenta Button-->
+    <color name="magenta_normal">#de5e7a</color>
+    <color name="magenta_focus">#a8475c</color>
+    <color name="magenta_disabled">#f0b6c3</color>
+    <color name="magenta_light">#eb7688</color>
+    <!--Blue Button-->
+    <color name="blue_normal">#405e8f</color>
+    <color name="blue_focus">#273956</color>
+    <color name="blue_disabled">#8fa1bd</color>
+    <!--Red Button-->
+    <color name="red_normal">#e32a4e</color>
+    <color name="nykaa_pink">#fc2779</color>
+    <color name="red_focus">#ad1f43</color>
+    <color name="red_disabled">#f2b2c2</color>
+    <!--<color name="grey_enabled">#898787</color>-->
+    <color name="grey_enabled">#404040</color>
+    <color name="yellow_dark">#FF9933</color>
+    <color name="pink_pressed">#FF43A0</color>
+    <color name="orange">#FFA500</color>
+    <color name="green_light">#7db142</color>
+
+    <!--Pink Button-->
+    <color name="pink_normal">#f46672</color>
+    <color name="pink_focus">#e31266</color>
+    <!--Back Button-->
+    <color name="back_button_color">#5a5a5a</color>
+    <color name="back_button_selected_color">#333333</color>
+
+    <color name="section_header_color">#737373</color>
+
+    <color name="alphabet_index_color">#CDCDCD</color>
+
+    <color name="transparent_white">#99FFFFFF</color>
+    <color name="offer_info_white">#DDFFFFFF</color>
+
+    <color name="secondary_text_color">#9ba0a6</color>
+    <color name="filter_bar_title">#8d8b8b</color>
+    <color name="filter_bar_title_selected">#5a5a5a</color>
+    <color name="account_black">#212121</color>
+    <!-- notification text color -->
+    <color name="notification_black_text">#232322</color>
+    <color name="notification_gray_date">#a4a4a4</color>
+
+    <color name="dart_gray_selected_bg">#9C9C9C</color>
+    <color name="indicator_gray">#DFDFDF</color>
+    <color name="indicator_pink">#e32a4e</color>
+
+    <color name="show_offer_stroke">#26246F</color>
+    <color name="show_offer_shadow">#C989F9</color>
+
+    <color name="dark_pink">#DE0064</color>
+    <color name="button_gray">#cbcbcb</color>
+    <color name="button_gray_edittext">#88cbcbcb</color>
+    <color name="blue">#FF1784C7</color>
+
+    <color name="gray_divider_color">#D1D1D1</color>
+    <color name="psts_background_tab_pressed">#1AFFFFFF</color>
+    <color name="psts_background_tab_pressed_ripple">#AAFFFFFF</color>
+    <color name="search_divider_grey">#EFEFEF</color>
+
+    <color name="read_review_text_color">#8A8A8A</color>
+    <color name="dark_pink_normal">#fc7db0</color>
+
+    <color name="nykaa_pink_snackbar">#CCfc2779</color>
+    <color name="snackbar_success">#ffe1e6</color>
+    <color name="snackbar_error">#CC212121</color>
+
+    <color name="selected_filter_bg_color">#D9D9D9</color>
+    <color name="normal_filter_bg_color">#FBF8F2</color>
+    <color name="filter_clear_btn_color">#F2F1F0</color>
+    <color name="text">#876F5D</color>
+
+    <color name="pressed_color">#D9D9D9</color>
+
+    <color name="login_background">#fff8f3</color>
+    <color name="text_label_color">#565656</color>
+    <color name="text_edit_color">#868686</color>
+    <color name="back_edit_color">#eeebea</color>
+
+
+       <!--Gmail color-->
+    <color name="message">#7a7a7a</color>
+    <color name="icon_tint_normal">#7a7a7a</color>
+    <color name="icon_tint_selected">#fed776</color>
+    <color name="row_activated">#e0e0e0</color>
+    <color name="bg_action_mode">#757575</color>
+    <color name="bg_circle_default">#666666</color>
+
+    <color name="icons">#FFFFFF</color>
+    <color name="edittext_border">#cfcfcf</color>
+
+    <color name="background">#FFEFF3F6</color>
+    <color name="header_dark_text">#5D5C5D</color>
+    <color name="header_light_text">#6A6F71</color>
+    <color name="description_text">#929292</color>
+    <color name="seperator">#E1DEDE</color>
+
+    <color name="dashboard_title">#3a4147</color>
+
+</resources>
+

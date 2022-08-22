@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.rahul.gridview.Activity.HomeActivity"
+    tools:showIn="@layout/activity_home">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnWebView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:padding="16dp"
+            android:layout_marginTop="10dp"
+            android:text="WebView Demo"
+            android:visibility="visible"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnDashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_rounded_blue_rect"
+            android:padding="16dp"
+            android:layout_marginTop="10dp"
+            android:text="Dashboard"
+            android:textColor="@color/white" />
+
+
+
+        <Button
+            android:id="@+id/btnDashboardNew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/icon_tint_selected"
+            android:padding="16dp"
+            android:layout_marginTop="10dp"
+            android:text="Dashboard New"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/btnJson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teallight"
+            android:padding="16dp"
+            android:layout_marginTop="10dp"
+            android:text="Get Json"
+            android:visibility="visible"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnDemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/magenta_normal"
+            android:padding="16dp"
+            android:layout_marginTop="10dp"
+            android:text="Activity Demo"
+            android:visibility="visible"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnAlert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/box2bg"
+            android:padding="16dp"
+            android:text="Broad Cast"
+            android:visibility="visible"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnfaceBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teallight"
+            android:padding="16dp"
+            android:layout_marginTop="10dp"
+            android:text="facebook"
+            android:visibility="visible"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnPopUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/read_review_text_color"
+            android:backgroundTint="@color/red_normal"
+            android:padding="16dp"
+            android:text="Location Demo"
+            android:visibility="visible"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/box2bg"
+            android:padding="16dp"
+            android:text="Location Demo2"
+            android:visibility="visible"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnLocationMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/teallight"
+            android:padding="16dp"
+            android:layout_marginTop="10dp"
+            android:text="Location with Service"
+            android:visibility="visible"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnKotlin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_normal"
+            android:padding="16dp"
+            android:layout_marginTop="10dp"
+            android:text="Kotlin Basic Demo"
+            android:visibility="visible"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:visibility="gone"
+
+            android:padding="10dp">
+
+            <RadioGroup
+                android:id="@+id/Group1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rb1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="First"
+                    android:textColor="@color/text_label_color" />
+
+                <RadioButton
+                    android:id="@+id/rb2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="First"
+                    android:textColor="@color/text_label_color" />
+
+                <RadioButton
+                    android:id="@+id/rb3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="First"
+                    android:textColor="@color/text_label_color" />
+
+                <RadioButton
+                    android:id="@+id/rb4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="First"
+                    android:textColor="@color/text_label_color" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvReviewDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:ellipsize="end"
+                android:maxLength="280"
+                android:maxLines="4"
+                android:text="I tend to shy away from restaurant chains, but wherever I go, PF Chang&apos;s has solidly good food and, like Starbucks, they&apos;re reliable. We were staying in Boston for a week and after a long day and blah blah blah blah... "
+                android:textColor="@color/black"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tvReviewDescription"
+                android:layout_alignParentRight="true"
+                android:text="view more"
+                android:textColor="@color/blue_focus" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgCalling"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:src="@drawable/calling_gif" />
+
+        <TextView
+            android:id="@+id/txtReceiver"
+            android:background="@color/gray"
+            android:textColor="@color/blue"
+            android:padding="15dp"
+            android:gravity="center"
+            android:text="0"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/fab_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AsyncTaskDemo.AsyncTaskRotateActivity"
+    tools:showIn="@layout/activity_async_task_rotate">
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:background="@color/show_offer_stroke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Async with Rotation"/>
+
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:textSize="18sp"
+        android:textColor="@color/back_button_selected_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+</LinearLayout>

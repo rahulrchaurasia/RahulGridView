@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        >
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="5dp"
+        android:gravity="bottom"
+        app:hintTextAppearance="@style/Base.TextAppearance.AppCompat.Medium">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etDogName"
+            style="@style/JEditText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ellipsize="end"
+            android:hint="Name"
+            android:maxLines="1"
+            android:textColor="#424242" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="5dp"
+        android:gravity="bottom"
+        app:hintTextAppearance="@style/Base.TextAppearance.AppCompat.Medium">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etDogColor"
+            style="@style/JEditText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ellipsize="end"
+            android:hint="Color"
+            android:maxLines="1"
+            android:textColor="#424242" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="5dp"
+            android:gravity="bottom"
+            app:hintTextAppearance="@style/Base.TextAppearance.AppCompat.Medium">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etAge"
+                style="@style/JEditText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ellipsize="end"
+                android:hint="Age"
+                android:maxLength="2"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#424242" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

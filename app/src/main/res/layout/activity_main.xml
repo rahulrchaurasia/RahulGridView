@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   >
+
+
+    <LinearLayout
+        android:id="@+id/demoEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apply"
+            android:id="@+id/btnApply"
+            android:layout_below="@+id/editText"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:text="2"
+            android:inputType="number"
+            android:maxLength="1"
+            android:digits="0123456789"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="50dp"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/free_sample_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:weightSum="3"
+        android:visibility="visible">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/free_sample_text"
+        android:paddingLeft="20dp"
+        android:textColor="@color/gray"
+     />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/num_of_freeSample"
+        android:textColor="@color/gray"
+        android:textSize="14dp"
+        android:minHeight="18dp"
+        android:maxHeight="18dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/free_sampe_Claim_Here"
+        android:id="@+id/free_sample_Claim"
+        android:textColor="@color/nykaa_pink"
+        android:textSize="14dp"
+        android:minHeight="18dp"
+        android:maxHeight="18dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

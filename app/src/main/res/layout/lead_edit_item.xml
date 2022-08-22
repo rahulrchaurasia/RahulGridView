@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_shipment_item_item"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical">
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/red_focus" />
+
+    <LinearLayout
+        android:id="@+id/lvlead1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/Mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Cust Name: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+
+            android:textColor="@color/text"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/etCustom"
+            style="@style/JEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:maxLines="3"
+            android:text=""
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"
+            android:textStyle="normal"></EditText>
+
+
+        <TextView
+            android:id="@+id/textViewCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Lrad Id: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/text"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/txtlead"
+            style="@style/JEditTextOth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:maxLines="3"
+            android:text=""
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"
+            android:textStyle="normal"></TextView>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Amount: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/text"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/etAmnt"
+            style="@style/JEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:maxLines="3"
+            android:text=""
+            android:inputType="number"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"
+            android:textStyle="normal"></EditText>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Mobile: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/text"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/etMobile"
+            style="@style/JEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:maxLines="3"
+            android:text=""
+            android:inputType="phone"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"
+            android:textStyle="normal"></EditText>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Status: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/text"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/etStatus"
+            style="@style/JEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:maxLines="3"
+            android:text=""
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/black"
+            android:textStyle="normal"></EditText>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

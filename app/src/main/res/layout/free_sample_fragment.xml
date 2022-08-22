@@ -1,0 +1,70 @@
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:columnWidth="150dp"
+            android:gravity="center"
+            android:horizontalSpacing="50dp"
+            android:numColumns="2"
+            android:stretchMode="spacingWidthUniform"
+            android:verticalSpacing="20dp" />
+
+        <LinearLayout
+            android:id="@+id/free_sample_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_divider_color"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            android:weightSum="1"
+            android:visibility="visible"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You can select upto"
+                android:id="@+id/free_sample_text1"
+                android:paddingLeft="20dp"
+                android:textColor="@color/text_label_color"
+                android:background="@color/off_white"
+                android:textSize="14dp"
+                android:minHeight="18dp"
+                android:maxHeight="18dp"
+                android:gravity="center_horizontal" />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/product_grid_addToBag_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/red_button"
+            android:maxHeight="32dp"
+            android:minHeight="32dp"
+            android:text="@string/free_sample_confirm"
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:layout_weight="0"/>
+
+    </LinearLayout>
+

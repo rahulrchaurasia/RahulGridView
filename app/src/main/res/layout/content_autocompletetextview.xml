@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.rahul.gridview.Activity.Autocompletetextview"
+    tools:showIn="@layout/activity_autocompletetextview">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:text="what_is_your_favourite_programming_language_" />
+
+    <!--<AutoCompleteTextView-->
+    <!--android:id="@+id/autoCompleteTextView1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_below="@+id/textView1"-->
+    <!--android:layout_marginLeft="36dp"-->
+    <!--android:layout_marginTop="17dp"-->
+    <!--android:hint="Search language..."-->
+    <!--android:theme="@style/Autocomplete"-->
+    <!--android:ems="10"-->
+    <!--android:text="">-->
+
+    <!--<requestFocus />-->
+    <!--</AutoCompleteTextView>-->
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="17dp"
+        android:hint="Search language..." />
+
+
+</LinearLayout>

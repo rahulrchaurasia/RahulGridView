@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/lyParent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgChooser"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:padding="@dimen/fab_margin"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_baseline_camera_alt_24">
+
+    </androidx.appcompat.widget.AppCompatImageView>
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_margin="@dimen/fab_margin"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="70"
+        ></ProgressBar>
+
+    <TextView
+        android:gravity="center"
+        android:text="Please Choose the Image "
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnUpload"
+        android:text="Upload Image"
+        style="@style/ButtonStyle"
+        android:layout_marginTop="@dimen/twenty_four"
+        android:layout_margin="@dimen/twenty_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <TextView
+        android:id="@+id/txtError"
+        android:gravity="center"
+        android:textColor="@color/red_focus"
+        android:text=""
+        android:visibility="gone"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgResult"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="@dimen/fab_margin"
+        android:scaleType="centerInside"
+        />
+
+
+</LinearLayout>

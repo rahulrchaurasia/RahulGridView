@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.rahul.gridview.Activity.NotifCountActivity"
+    tools:showIn="@layout/activity_notif_count">
+
+
+    <EditText
+        android:id="@+id/etCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+
+        android:weightSum="100">
+
+
+
+
+        <ToggleButton
+            android:id="@+id/txt5Y"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:background="@drawable/grey_curve_shape_left"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="5Y"
+            android:textOff="5Y"
+            android:textOn="5Y"
+            android:textColor="@color/black" />
+
+
+        <ToggleButton
+            android:id="@+id/txt10Y"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:background="@drawable/customeborder_grey"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="10Y"
+            android:textOff="10Y"
+            android:textOn="10Y"
+            android:textColor="@color/black" />
+
+        <ToggleButton
+            android:id="@+id/txt15Y"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:background="@drawable/customeborder_grey"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="15Y"
+            android:checked="false"
+            android:textColor="@color/black"
+            android:textOff="15Y"
+            android:textOn="15Y"
+            />
+
+        <ToggleButton
+            android:id="@+id/txt20Y"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:background="@drawable/grey_curve_shape_right"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="20Y"
+            android:textOff="20Y"
+            android:textOn="20Y"
+            android:textColor="@color/black" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+
+
+    </LinearLayout>
+
+    <com.example.rahul.gridview.Utility.CustomUISelector
+        android:id="@+id/cvToggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AsyncTaskDemo.AsyncTaskDemoActivity"
+    android:id="@+id/coordinator_layout"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_async_task_demo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_do"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Do AsyncTask"
+                android:layout_margin="25dp"
+                android:layout_gravity="top|start"
+                />
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                app:layout_anchor="@id/btn_do"
+                app:layout_anchorGravity="right|center"
+                android:layout_gravity="end|center"
+                />
+
+            <Button
+                android:id="@+id/btn_Next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:layout_marginLeft="10dp"
+                app:layout_anchor="@id/btn_do"
+                app:layout_anchorGravity="right|center"
+                android:layout_gravity="end|center"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_anchor="@id/btn_do"
+            android:layout_gravity="bottom|center_horizontal"
+            app:layout_anchorGravity="bottom|center_horizontal"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            />
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

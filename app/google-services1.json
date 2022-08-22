@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "308486578661",
+    "firebase_url": "https://fcmdemoapp-fc388.firebaseio.com",
+    "project_id": "fcmdemoapp-fc388",
+    "storage_bucket": "fcmdemoapp-fc388.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308486578661:android:23e806244126a8da",
+        "android_client_info": {
+          "package_name": "com.example.rahul.gridview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308486578661-crhmol4270csdnrhsl0bg36961o1nusg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoRJt7PulpTup0nGpfpGd3EzScfbaySfg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

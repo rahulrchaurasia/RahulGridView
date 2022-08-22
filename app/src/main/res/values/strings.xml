@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">Demo</string>
+
+    <string name="file_provider_authority" translatable="false">com.example.rahul.gridview.fileprovider</string>
+
+    <string name="facebook_app_id">359475404961646</string>
+    <string name="fb_login_protocol_scheme">fb359475404961646</string>
+
+
+    <string name="message">Hold on QR CODE </string>
+    <string name="turn_off_flashlight">turn off flashlight </string>
+    <string name="turn_on_flashlight">turn on flashlight </string>
+
+    <string name="versionUpdate"> New version available on play store, Please update. </string>
+    <string name="camera_access_required">Camera access is required to display the camera.</string>
+    <string name="storage_access_required">Storage access is required to save the image.</string>
+
+    <string name="confirmMessage">Do you want to Submit it?</string>
+
+
+    <string name="add_emp">Add Employee</string>
+    <string name="search">Search</string>
+    <string name="relam_Json">Search:Name Amount</string>
+    <string name="Add">Add</string>
+    <string name="Remove">Remove</string>
+    <string name="free_sample_confirm">Confirm</string>
+    <string name="free_sample_you_are_eligible_for">You are Eligible for</string>
+
+    <string name="remove_giftcard_text">Remove\ne-GiftrCard</string>
+    <string name="apply_giftcard_text">Apply\ne-GiftrCard</string>
+
+    <string name="free_sample">Free Sample</string>
+    <string name="free_sampe_Claim_Here">""</string>
+
+    <string name="locationTxt">Continuous Location Update</string>
+    <string name="action_settings">Settings</string>
+    <!--<string name="free_sampe_Claim_Here"> Claim Here</string>-->
+
+
+    <string name="action_search">Search</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="spinner_header">Category</string>
+
+    <string name="country_prompt">Choose a country</string>
+
+    <string name="signup">Not a Member? <b><u>Sign up now!</u></b></string>
+    <string name="click_here"> <b><u>Click Here!!</u></b></string>
+    <string name="register_here"> <b><u>Register Here!</u></b></string>
+    <string name="forgotPwd"><u><i>Forgot Password? .</i></u></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_profile">Profile Pic</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_location_tracker">LocationTracker</string>
+    <string name="title_activity_dynamic_text">DynamicText</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_Home">Home</string>
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+
+    <!-- Button text -->
+    <string name="loading">Loading...</string>
+    <string name="title_activity_realm_demo">Realm Demo</string>
+    <string name="view">View</string>
+    <string name="content">Big Image</string>
+
+    <!--menu Realm-->
+    <string name="title_activity_realm_data_display">Person Details</string>
+    <string name="title_activity_realm_with_json">Realm Json</string>
+    <string name="title_activity_location">Location Demo</string>
+    <string name="title_activity_paging">PagingActivity</string>
+    <string name="title_activity_autocompletetextview">Autocompletetextview</string>
+    <string name="title_activity_pop_up">PopUp</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+    <string name="title_activity_gps">GPS</string>
+    <string name="title_activity_pop_up_menu">PopUp Menu</string>
+    <string name="title_activity_gesture">GestureActivity</string>
+    <string name="title_activity_recycler_Main">Recycler Operation</string>
+    <string name="title_activity_header_footer_recycler">Header Footer Recycler</string>
+    <string name="title_activity_header_recycler">Header Recycler</string>
+    <string name="title_activity_footer_recycler">Footer Recycler</string>
+    <string name="title_activity_handler">HandlerActivity</string>
+    <string name="title_activity_endless_pager">EndlessPagerActivity</string>
+    <string name="title_activity_broad_cast">BroadCastActivity</string>
+    <string name="title_activity_ustom_progress">ustomProgressActivity</string>
+    <string name="title_activity_pop_up_window">PopUpWindowActivity</string>
+    <string name="title_activity_pop_up_window2">PopUpWindowActivity2</string>
+    <string name="title_activity_constrain">ConstrainActivity</string>
+    <string name="title_activity_rotate">RotateActivity</string>
+    <string name="title_activity_circle_view_page">Circle View Pager</string>
+    <string name="title_activity_gson_json">GsonJsonActivity</string>
+    <string name="title_activity_wifi">Wifi Activity</string>
+    <string name="title_activity_notif_count">NotifCountActivity</string>
+    <string name="title_activity_local_bound">LocalBoundActivity</string>
+    <string name="title_activity_foreground_service">Foreground Service</string>
+    <string name="title_activity_service_notify_bar">Service Notify AppBar</string>
+    <string name="title_activity_dash_board">DashBoard</string>
+    <string name="title_activity_switch">Custom Switch Controll</string>
+    <string name="title_activity_custom_shape">CustomShapeActivity</string>
+    <string name="title_activity_service_download">Service Download File</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_login_new">LoginNewActivity</string>
+    <string name="title_activity_chat_tab">Chat</string>
+    <string name="title_activity_messagee">Chat Message</string>
+    <string name="title_activity_life_cycle">Activity LifeCycle Demo</string>
+    <string name="title_activity_third_demo">Third Activity</string>
+    <string name="title_activity_facebook">FacebookActivity</string>
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+    <string-array name="country_names">
+        <item>Germany</item>
+        <item>India</item>
+        <item>Italy</item>
+        <item>Norway</item>
+
+        <item>Iran</item>
+        <item>Phillipins</item>
+        <item>Saudi Arub</item>
+        <item>Spain</item>
+
+        <item>Turkey</item>
+        <item>United State</item>
+
+        <item>Germany</item>
+        <item>India</item>
+        <item>Italy</item>
+        <item>Norway</item>
+
+        <item>Iran</item>
+        <item>Phillipins</item>
+        <item>Saudi Arub</item>
+        <item>Spain</item>
+
+        <item>Turkey</item>
+        <item>United State</item>
+
+    </string-array>
+    <string name="title_activity_async_task_demo">AsyncTaskDemoActivity</string>
+    <string name="title_activity_demo_of_async">AsyncTask</string>
+    <string name="title_activity_async_task_rotate">AsyncTask Rotate Scenario</string>
+    <string name="title_activity_intent_service">IntentServiceActivity</string>
+    <string name="title_activity_location_demo2">LocationDemo2</string>
+    <string name="title_activity_scan_demo">ScanDemoActivity</string>
+    <string name="title_activity_scanner">QR Scanner </string>
+    <string name="title_activity_location_main">Location Service</string>
+    <string name="title_activity_work_manager">WorkManagerActivity</string>
+    <string name="title_activity_work_manager_dashboard">WorkManagerDashboard</string>
+    <string name="title_activity_work_manager_periodic">WorkManagerPeriodicActivity</string>
+    <string name="title_activity_work_manager_channable">WorkManagerChannableActivity</string>
+    <string name="title_kotlin">Kotlin Demo</string>
+    <string name="title_activity_room">Room Demo</string>
+    <string name="title_activity_common_web_view">WebView</string>
+    <string name="title_activity_view_image">View</string>
+    <string name="title_activity_doc_upload">DocUploadActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_file_upload">File Upload</string>
+
+</resources>

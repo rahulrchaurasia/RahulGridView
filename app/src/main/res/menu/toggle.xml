@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="5Y"
+        android:id="@+id/toggle_one"
+        android:icon="@drawable/grey_curve_shape_left"
+       />
+
+    <item
+        android:title="10Y"
+        android:id="@+id/toggle_two"
+      />
+
+    <item
+        android:title="15Y"
+        android:id="@+id/toggle_three"
+        />
+
+
+    <item
+        android:title="20Y"
+        android:id="@+id/toggle_four"
+      />
+</menu>

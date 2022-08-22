@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.rahul.gridview.Activity.ShareData">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layParent"
+        android:padding="10dp"
+        android:paddingBottom="5dp"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Load"
+            android:id="@+id/btnLoad"
+
+            />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Data"
+        android:id="@+id/btnShare"
+        android:paddingBottom="5dp"
+      />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share Using Capure Image"
+            android:id="@+id/btnCapture"
+            android:paddingBottom="5dp"
+            />
+
+
+    <WebView
+        android:visibility="visible"
+        android:id="@+id/webview"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </WebView>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.rahul.gridview.Activity.RealmDemo"
+    tools:showIn="@layout/activity_realm_demo">
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:id="@+id/lay_dog"
+    android:orientation="vertical"
+        android:layout_marginTop="16dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="5dp"
+        android:gravity="bottom"
+        app:hintTextAppearance="@style/Base.TextAppearance.AppCompat.Medium">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_name"
+            style="@style/JEditText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ellipsize="end"
+            android:hint="Name"
+            android:maxLines="1"
+            android:textColor="#424242" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="5dp"
+        android:gravity="bottom"
+        app:hintTextAppearance="@style/Base.TextAppearance.AppCompat.Medium">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_dept"
+            style="@style/JEditText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ellipsize="end"
+            android:hint="Department"
+            android:maxLines="1"
+            android:textColor="#424242" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="5dp"
+        android:gravity="bottom"
+        app:hintTextAppearance="@style/Base.TextAppearance.AppCompat.Medium">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_email"
+            style="@style/JEditText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ellipsize="end"
+            android:hint="Email ID"
+            android:maxLines="1"
+            android:textColor="#424242" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorAccent"
+        android:textColor="@color/white"
+        android:text="Submit"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

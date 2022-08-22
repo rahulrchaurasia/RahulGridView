@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="@color/yellow_dark"
+    tools:context=".demo.PopupDialogActivity">
+    <TextView
+        android:id="@+id/txtTitle"
+        style="@style/TextStyle.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_weight="10"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:minHeight="42dp"
+        android:text="Another Activity"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_below="@+id/txtTitle"
+        android:id="@+id/txtMessage"
+        android:layout_marginTop="16dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="Activity comes into the foreground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+    <Button
+        android:id="@+id/btnClose"
+        android:text="CLOSE"
+        style="@style/ButtonStyle"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
