@@ -94,6 +94,7 @@ public class LocationDemo2 extends AppCompatActivity {
                     //using GPS only
                     sensorType.setText("GPS");
                     locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+                   // locationRequest.setPriority(LocationRequest.PRIORITY_NO_POWER);
                 } else {
                     //using balanced power accuracy
                     sensorType.setText("Cell Tower and WiFi");
